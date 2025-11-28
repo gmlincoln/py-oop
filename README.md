@@ -45,7 +45,7 @@ class Person:
         return f"My name is {self.name}"
 
 ```
-
+<!-- 
 ```python
 
 ```
@@ -58,23 +58,59 @@ class Person:
 ```
 ```python
 
-```
+``` -->
+### NEXT CLASSS TOPIC
+
+#### 4️⃣ Encapsulation
+Hiding internal data and controlling access.
+
 ```python
 
 ```
+#### 5️⃣ Inheritance
+Creating a new class using an existing class.
+
 ```python
 
 ```
+#### 6️⃣ Polymorphism
+Same method name, different behavior.
+
 ```python
 
 ```
+#### 7️⃣ Abstraction
+Hiding complexity and showing only the essentials.
+
 ```python
 
 ```
-```python
 
-```
+#### 8️⃣ Composition
+Using one class inside another – “has-a” relationship.
+
+<!-- ```python
+class Engine:
+    pass
+
+class Car:
+    def __init__(self, engine):
+        self.engine = engine
+
+``` -->
+
+#### 9️⃣ Dunder (Magic) Methods
 ```python
+class Point:
+    def __init__(self, x, y):
+        self.x = x
+        self.y = y
+
+    def __add__(self, other):
+        return Point(self.x + other.x, self.y + other.y)
+
+    def __repr__(self):
+        return f"Point({self.x}, {self.y})"
 
 ```
 
